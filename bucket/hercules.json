@@ -1,4 +1,7 @@
 {
+    "homepage": "https://www.hw-group.com/software/hercules-setup-utility",
+    "description": "A useful serial port terminal (RS-485 or RS-232 terminal), UDP/IP terminal and TCP/IP Client Server terminal.",
+    "url": "https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe",
     "version": "3.2.8",
-    "url": "https://github.com/Norgate-AV-Holdings-Ltd/scoop-norgateav/blob/master/hercules/3.2.8/hercules_3-2-8.exe"
+    "bin": ["hercules_3-2-8.exe"]
 }
