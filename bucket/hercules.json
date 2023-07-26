@@ -2,7 +2,8 @@
     "homepage": "https://www.hw-group.com/software/hercules-setup-utility",
     "description": "A useful serial port terminal (RS-485 or RS-232 terminal), UDP/IP terminal and TCP/IP Client Server terminal.",
     "license": "Freeware",
-    "url": "https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe#/dl.7z",
+    "url": "https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe",
     "version": "3.2.8",
-    "bin": "hercules_3-2-8.exe"
+    "bin": "hercules_3-2-8.exe",
+    "hash": "ac3a503e94f241344f10f178fe378ac1f945ccd71a88c575622d91b376e3b6ec"
 }
