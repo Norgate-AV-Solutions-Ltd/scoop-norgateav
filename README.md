@@ -9,7 +9,7 @@ How do I install these manifests?
 
 To add this bucket, run `scoop bucket add norgateav https://github.com/Norgate-AV-Solutions-Ltd/scoop-norgateav`. To install, do `scoop install <manifest>`.
 
-<--
+<!--
 How do I contribute new manifests?
 ----------------------------------
 
