@@ -5,7 +5,7 @@
     "url": "https://www.amx.com/en/softwares/netlinx-studio-4-v4-4-1915/download#/dl.7z",
     "license": "Proprietary",
     "installer": {
-        "file": "NetLinxStudioSetup_4_4_1915.exe",
+        "script": "Start-Process -Wait \"$dir\\NetLinxStudioSetup_4_4_1915.exe\" -ArgumentList @() -Verb RunAs | Out-Null",
         "keep": false
     }
 }
