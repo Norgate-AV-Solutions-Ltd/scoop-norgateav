@@ -14,5 +14,19 @@
         }
     },
     "bin": [["ykman.exe", "ykman"]],
-    "shortcuts": [["ykman-gui.exe", "ykman-gui"]]
+    "shortcuts": [["ykman-gui.exe", "ykman-gui"]],
+    "checkver": {
+        "url": "https://developers.yubico.com/yubikey-manager-qt/Releases/",
+        "regex": "yubikey-manager-qt-([\\d.]+)-win"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-$version-win64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-$version-win32.exe#/dl.7z"
+            }
+        }
+    }
 }
