@@ -2,9 +2,9 @@
     "homepage": "https://xpipe.io",
     "description": "Your entire server infrastructure at your fingertips",
     "license": "Apache License 2.0",
-    "url": "https://github.com/xpipe-io/xpipe/releases/download/1.7.11/xpipe-installer-windows-x86_64.msi#/dl.7z",
+    "url": "https://github.com/xpipe-io/xpipe/releases/download/1.7.11/xpipe-portable-windows-x86_64.zip",
     "version": "1.7.11",
     "bin": "xpiped.exe",
-    "hash": "7c755a8f7fe443beb6461af062fb81566c181c7827fd0cdbc9d3a9725a3d2d38",
+    "hash": "09e10eb36f36cd3dc9dfb298e9591e4421c10e03ed3f4b8b5852a12d7a2211b2",
     "shortcuts": [["xpiped.exe", "Xpipe"]]
 }
