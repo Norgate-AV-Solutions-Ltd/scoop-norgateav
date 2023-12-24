@@ -1,0 +1,10 @@
+{
+    "homepage": "https://xpipe.io",
+    "description": "Your entire server infrastructure at your fingertips",
+    "license": "Apache License 2.0",
+    "url": "https://github.com/xpipe-io/xpipe/releases/download/1.7.11/xpipe-installer-windows-x86_64.msi#/dl.7z",
+    "version": "1.7.11",
+    "bin": "xpiped.exe",
+    "hash": "7c755a8f7fe443beb6461af062fb81566c181c7827fd0cdbc9d3a9725a3d2d38",
+    "shortcuts": [["xpiped.exe", "Xpipe"]]
+}
