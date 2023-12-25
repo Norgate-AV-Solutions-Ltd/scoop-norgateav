@@ -7,11 +7,9 @@
         "64bit": {
             "url": "https://github.com/xpipe-io/xpipe/releases/download/1.7.11/xpipe-portable-windows-x86_64.zip",
             "hash": "09e10eb36f36cd3dc9dfb298e9591e4421c10e03ed3f4b8b5852a12d7a2211b2",
-            "bin": [
-                "xpipe-1.7.11/app/xpiped.exe",
-                "xpipe-1.7.11/cli/bin/xpipe.exe"
-            ],
-            "shortcuts": [["xpipe-1.7.11/app/xpiped.exe", "Xpipe"]]
+            "extract_dir": "xpipe-1.7.11",
+            "bin": ["app/xpiped.exe", "cli/bin/xpipe.exe"],
+            "shortcuts": [["app/xpiped.exe", "Xpipe"]]
         }
     }
 }
