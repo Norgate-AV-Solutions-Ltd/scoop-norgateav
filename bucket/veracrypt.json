@@ -4,7 +4,7 @@
     "license": "Apache License 2.0",
     "url": "https://launchpad.net/veracrypt/trunk/1.26.15/+download/VeraCrypt_Setup_x64_1.26.15.msi#/dl.7z",
     "version": "1.26.15",
-    "bin": "VeraCrypt_1.26.15.exe",
+    "bin": "VeraCrypt.exe",
     "hash": "B04253864ADAD522669AD69E94E55945A0736A8C4AEB6742357228120D342CF7",
-    "shortcuts": [["VeraCrypt_1.26.15.exe", "VeraCrypt"]]
+    "shortcuts": [["VeraCrypt.exe", "VeraCrypt"]]
 }
