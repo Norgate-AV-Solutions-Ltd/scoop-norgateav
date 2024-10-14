@@ -1,10 +1,21 @@
 {
-    "homepage": "https://www.veracrypt.fr/en/Home.html",
-    "description": "VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.",
-    "license": "Apache License 2.0",
-    "url": "https://launchpad.net/veracrypt/trunk/1.26.15/+download/VeraCrypt_Setup_x64_1.26.15.msi#/dl.7z",
     "version": "1.26.15",
+    "description": "VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.",
+    "homepage": "https://www.veracrypt.fr/en/Home.html",
+    "license": "Apache License 2.0",
+    "url": "https://launchpad.net/veracrypt/trunk/1.26.15/+download/VeraCrypt%20Portable%201.26.15.exe#/dl.7z",
     "bin": "VeraCrypt.exe",
-    "hash": "B04253864ADAD522669AD69E94E55945A0736A8C4AEB6742357228120D342CF7",
-    "shortcuts": [["VeraCrypt.exe", "VeraCrypt"]]
+    "hash": "9678c92aea7f557b7522f6dc942fa1d00e813dfde4E7774c61e37c19e914a3a4",
+    "shortcuts": [["VeraCrypt.exe", "VeraCrypt"]],
+    "checkver": {
+        "url": "https://veracrypt.fr/en/Downloads.html",
+        "regex": "Windows:\\s*Version\\s*([\\d.]+)\\s*\\("
+    },
+    "autoupdate": {
+        "url": "https://launchpad.net/veracrypt/trunk/$version/+download/VeraCrypt%20Portable%20$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://launchpadlibrarian.net/747274727/veracrypt-$version-sha256sum.txt",
+            "regex": "\\^([a-f0-9]+)\\s+VeraCrypt%20Portable%20$version.exe"
+        }
+    }
 }
